@@ -31,7 +31,7 @@ void thingFigurer (int numberA, int numberB, int steps){
 
 int main(int argc, const char * argv[]) {
     
-    cout<<"Welcome to HexLerp. Let's make some Chiptune.\nEnter a hexadecimal value to start from.\n";
+    cout<<"Let's make some Chiptune.\nEnter a hexadecimal value to start from.\n";
     getline(cin,userA);
     cout<<"Now enter a hexadecimal value to end at\n";
     getline(cin,userB);
