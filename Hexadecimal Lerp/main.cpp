@@ -38,6 +38,7 @@ int main(int argc, const char * argv[]) {
     cout<<"And how many decimal steps to reach our end value?\n";
     getline(cin,userSteps);
     cout<<"Cool, the values are:\n";
+    //Take the user input and convert it from strings to hex
     thingFigurer(stoi(userA, nullptr, 16), stoi(userB, nullptr, 16), stoi(userSteps));
     
     return 0;
